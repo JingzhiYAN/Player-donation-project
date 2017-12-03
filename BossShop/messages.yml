@@ -1,15 +1,15 @@
 Main:
-  NoPermission: '&cYou are not allowed to do this!'
-  AlreadyBought: '&cYou already purchased that!'
-  ShopNotExisting: '&cThat Shop is not existing...'
-  OpenShop: '&6Opening the BossShop...'
+  NoPermission: '&c英灵专用部分！'
+  AlreadyBought: '&c你已经买过这个东东啦'
+  ShopNotExisting: '&c这个商店被女王啃了。。。'
+  OpenShop: '&6欢迎光临叮当的糖果店！'
   CloseShop: ''
 Economy:
-  NoAccount: '&cYou don''t have an economy account!'
+  NoAccount: '&c你没有经济帐户'
 NotEnough:
-  Money: '&cYou don''t have enough Money!'
-  Item: '&cYou don''t have enough Items!'
-  Points: '&cYou don''t have enough Points!'
-  Exp: '&cYou don''t have enough EXP!'
+  Money: '&c你的贡品不足！'
+  Item: '&c你没有足够的物品！'
+  Points: '&c你没有足够的虔诚值！'
+  Exp: '&c你没有足够的EXP（经验）！'
 Enchantment:
-  Invalid: '&cYou can''t enchant that item with this enchantment!'
+  Invalid: '&c你不能在这个地方购买物品！（merchant，找叮当！）'

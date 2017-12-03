@@ -1,5 +1,5 @@
 ShopName: Spells
-DisplayName: '&4&lSpells'
+DisplayName: '&4&l神之技能'
 signs:
   text: '[Spells]'
   NeedPermissionToCreateSign: true

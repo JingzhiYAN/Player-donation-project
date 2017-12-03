@@ -17,22 +17,10 @@ shop:
     - amount:1
     InventoryLocation: 1
     ExtraPermission: ''
-  PvP:
-    RewardType: playercommand
-    PriceType: free
-    Reward:
-    - warp pvp
-    MenuItem:
-    - type:DIAMOND_SWORD
-    - amount:1
-    - name:&aPvP
-    - lore:&8Warp to the PvP Arena
-    - amount:1
-    InventoryLocation: 2
-    ExtraPermission: ''
   Shop:
     RewardType: playercommand
-    PriceType: free
+    PriceType: money
+    Price: 5
     Reward:
     - warp shop
     MenuItem:
