@@ -1,0 +1,19 @@
+ShopName: SellShop
+DisplayName: '&b&未开放'
+signs:
+  text: '[SellShop]'
+  NeedPermissionToCreateSign: true
+shop:
+
+  Back:
+    RewardType: shop
+    PriceType: free
+    Reward: menu
+    MenuItem:
+    - type:REDSTONE
+    - amount:1
+    - name:&cBack
+    - lore:&8Back to Menu
+    Message: '&6返回商店中'
+    InventoryLocation: 27
+    ExtraPermission: ''

@@ -1,0 +1,15 @@
+Main:
+  NoPermission: '&c英灵专用部分！'
+  AlreadyBought: '&c你已经买过这个东东啦'
+  ShopNotExisting: '&c这个商店被女王啃了。。。'
+  OpenShop: '&6欢迎光临叮当的糖果店！'
+  CloseShop: ''
+Economy:
+  NoAccount: '&c你没有经济帐户'
+NotEnough:
+  Money: '&c你的贡品不足！'
+  Item: '&c你没有足够的物品！'
+  Points: '&c你没有足够的虔诚值！'
+  Exp: '&c你没有足够的EXP（经验）！'
+Enchantment:
+  Invalid: '&c你不能在这个地方购买物品！（merchant，找叮当！）'
