@@ -1,5 +1,5 @@
 ShopName: BuyShop
-DisplayName: '&9&l英灵忠诚商店'
+DisplayName: '&9&lbuyshop'
 signs:
   text: '[BuyShop]'
   NeedPermissionToCreateSign: true

@@ -72,4 +72,4 @@ MultiplierGroups:
   - BossShop.PriceMultiplier.Money2:money:0.5
   - BossShop.PriceMultiplier.MoneyNegative:money:2.0
   - BossShop.PriceMultiplier.Exp:exp:0.8
-PointsPlugin: auto-detect
+PointsPlugin: playerpoints
