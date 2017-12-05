@@ -2,7 +2,7 @@ ShopName: BuyShop
 DisplayName: '&9&lBuyShop'
 signs:
   text: '[BuyShop]'
-  NeedPermissionToCreateSign: true
+  NeedPermissionToCreateSign: false
 shop:
   Wool:
     RewardType: item
@@ -43,7 +43,7 @@ shop:
       - enchantment:PROTECTION_ENVIRONMENTAL#10
     MenuItem:
     - name:&5%itemname%
-    - 'lore:&cPrice: 1500 Money'
+    - 'lore:&cPrice: 500 Points'
     - type:LEATHER_CHESTPLATE
     - amount:1
     - color:110#10#140
@@ -93,7 +93,7 @@ shop:
     - - id:16
       - amount:64
     MenuItem:
-    - id:477
+    - id:16
     - amount:64
     - name:&964 Coal Ore
     - 'lore:&cPrice: 32 Money'
@@ -113,7 +113,7 @@ shop:
     - type:GOLDEN_APPLE
     - amount:1
     - name:&9%itemname%
-    - 'lore:&cPrice: 10000 Money'
+    - 'lore:&cPrice: 50 points'
     - durability:1
     Message: '&eYou bought 1 %itemname%! Money left: &c%left%'
     InventoryLocation: 6
@@ -133,7 +133,7 @@ shop:
     - type:DIAMOND_SWORD
     - amount:1
     - name:&4[*] &c%itemname% &4[*]
-    - 'lore:&cPrice: 2000 Points'
+    - 'lore:&cPrice: 500 Points'
     - enchantment:DAMAGE_ALL#5
     - enchantment:FIRE_ASPECT#2
     Message: '&eYou bought 1 %itemname%! Money left: &c%left%'

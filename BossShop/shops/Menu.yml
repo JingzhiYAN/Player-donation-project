@@ -2,7 +2,7 @@ ShopName: Menu
 DisplayName: '&lMenu'
 signs:
   text: '[Menu]'
-  NeedPermissionToCreateSign: true
+  NeedPermissionToCreateSign: false
 shop:
   MenuBuyShop:
     RewardType: shop
@@ -16,15 +16,15 @@ shop:
     Message: ''
     InventoryLocation: 1
     ExtraPermission: ''
-  MenuSellShop:
+  MenuEarnshop:
     RewardType: shop
     PriceType: free
-    Reward: SellShop
+    Reward: Earnshop
     MenuItem:
-    - type:COBBLESTONE
+    - type:GOLDEN_APPLE
     - amount:1
-    - name:&b&lSellShop &6[+]
-    - lore:&8Here you can sell Items
+    - name:&b&lEarn Shop &6[+]
+    - lore:&8Here you can sell Items To get reward!
     Message: ''
     InventoryLocation: 3
     ExtraPermission: ''

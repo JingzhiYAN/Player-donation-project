@@ -1,12 +1,12 @@
-ShopName: SellShop
-DisplayName: '&b&lSellShop'
+ShopName: Earnshop
+DisplayName: '&b&lEarnshop'
 signs:
-  text: '[SellShop]'
+  text: '[Earnshop]'
   NeedPermissionToCreateSign: true
 shop:
   wheat:
-    Rewardid: money
-    Priceid: item
+    RewardType: money
+    PriceType: item
     Price:
     - - id:296
       - amount:64
@@ -21,8 +21,8 @@ shop:
     InventoryLocation: 1
     ExtraPermission: ''
   Potato:
-    Rewardid: money
-    Priceid: item
+    RewardType: money
+    PriceType: item
     Price:
     - - id:392
       - amount:32
@@ -37,8 +37,8 @@ shop:
     InventoryLocation: 2
     ExtraPermission: ''
   Suger Cane:
-    Rewardid: money
-    Priceid: item
+    RewardType: money
+    PriceType: item
     Price:
     - - id:338
       - amount:64
@@ -53,8 +53,8 @@ shop:
     InventoryLocation: 3
     ExtraPermission: ''
   Rotten Flesh:
-    Rewardid: money
-    Priceid: item
+    RewardType: money
+    PriceType: item
     Price:
     - - id:367
       - amount:64
@@ -69,8 +69,8 @@ shop:
     InventoryLocation: 4
     ExtraPermission: ''
   Melon:
-    Rewardid: money
-    Priceid: item
+    RewardType: money
+    PriceType: item
     Price:
     - - id:360
       - amount:64
@@ -85,8 +85,8 @@ shop:
     InventoryLocation: 5
     ExtraPermission: ''
   Spider Eye:
-    Rewardid: money
-    Priceid: item
+    RewardType: money
+    PriceType: item
     Price:
     - - id:375
       - amount:64
@@ -101,8 +101,8 @@ shop:
     InventoryLocation: 6
     ExtraPermission: ''
   Carrot:
-    Rewardid: money
-    Priceid: item
+    RewardType: money
+    PriceType: item
     Price:
     - - id:391
       - amount:64
@@ -117,8 +117,8 @@ shop:
     InventoryLocation: 7
     ExtraPermission: ''
   Cocoa Beans:
-    Rewardid: money
-    Priceid: item
+    RewardType: money
+    PriceType: item
     Price:
     - - id:Cocoa_Beans
       - amount:64
@@ -133,8 +133,8 @@ shop:
     InventoryLocation: 8
     ExtraPermission: ''
   Back:
-    Rewardid: shop
-    Priceid: free
+    RewardType: shop
+    PriceType: free
     Reward: menu
     MenuItem:
     - id:REDSTONE

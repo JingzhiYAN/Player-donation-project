@@ -119,7 +119,7 @@ shop:
   BossSword:
     RewardType: item
     PriceType: points
-    Price: 2000
+    Price: 200
     Reward:
     - - type:DIAMOND_SWORD
       - amount:1
@@ -131,7 +131,7 @@ shop:
     - type:DIAMOND_SWORD
     - amount:1
     - name:&4[*] &c%itemname% &4[*]
-    - 'lore:&cPrice: 2000 Points'
+    - 'lore:&cPrice: 200 Points'
     - enchantment:DAMAGE_ALL#5
     - enchantment:FIRE_ASPECT#2
     Message: '&eYou bought 1 %itemname%! Money left: &c%left%'
