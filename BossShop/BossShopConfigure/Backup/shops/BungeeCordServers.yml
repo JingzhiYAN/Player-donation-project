@@ -1,5 +1,5 @@
 ShopName: BungeeCordServers
-DisplayName: '&c&lWTF is this!'
+DisplayName: '&c&lBungeeCordServers'
 signs:
   text: '[BungeeCordServers]'
   NeedPermissionToCreateSign: true

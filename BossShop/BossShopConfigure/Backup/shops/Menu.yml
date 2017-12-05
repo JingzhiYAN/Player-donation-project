@@ -61,8 +61,8 @@ shop:
     - type:DIAMOND
     - amount:1
     - name:&6&lPointShop &a[v]
-    - 'lore:&8Here you can buy Points ##&b&lYour Money: &r&9%balance% ##&cOnly for
-      VIPs'
+    - 'lore:&8Here you can buy Points ##&b&lYour Points: &r&9%balancepoints%#&b&lYour
+      Money: &r&9%balance% ##&cOnly for VIPs'
     Message: ''
     InventoryLocation: 9
     ExtraPermission: Permission.Vip

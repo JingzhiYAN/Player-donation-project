@@ -1,5 +1,5 @@
 ShopName: LilyPadServers
-DisplayName: '&c未开放'
+DisplayName: '&c&lLilyPadServers'
 signs:
   text: '[LilyPadServers]'
   NeedPermissionToCreateSign: true

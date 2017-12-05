@@ -1,0 +1,146 @@
+ShopName: SellShop
+DisplayName: '&b&lSellShop'
+signs:
+  text: '[SellShop]'
+  NeedPermissionToCreateSign: true
+shop:
+  wheat:
+    RewardType: money
+    PriceType: item
+    Price:
+    - - type:wheat
+      - amount:64
+    Reward: 128
+    MenuItem:
+    - type:DIAMOND
+    - amount:64
+    - name:&b1 Diamond
+    - 'lore:&2Reward: 2 Money'
+    - amount:64
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 1
+    ExtraPermission: ''
+  Potato:
+    RewardType: money
+    PriceType: item
+    Price:
+    - - type:POTATO
+      - amount:32
+    Reward: 128
+    MenuItem:
+    - type:POTATO
+    - amount:64
+    - name:&b32 potato
+    - 'lore:&2Reward: 128 Money'
+    - amount:64
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 2
+    ExtraPermission: ''
+  Suger Cane:
+    RewardType: money
+    PriceType: item
+    Price:
+    - - type:Suger_Cane
+      - amount:64
+    Reward: 64
+    MenuItem:
+    - type:Suger_Cane
+    - amount:64
+    - name:&b32 Suger Cane
+    - 'lore:&2Reward: 64 Money'
+    - amount:64
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 3
+    ExtraPermission: ''
+  Rotten Flesh:
+    RewardType: money
+    PriceType: item
+    Price:
+    - - type:Rotten_Flesh
+      - amount:64
+    Reward: 192
+    MenuItem:
+    - type:Rotten_Flesh
+    - amount:64
+    - name:&b32 Rotten Flesh
+    - 'lore:&2Reward: 192 Money'
+    - amount:64
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 4
+    ExtraPermission: ''
+  Melon:
+    RewardType: money
+    PriceType: item
+    Price:
+    - - type:Melon
+      - amount:64
+    Reward: 64
+    MenuItem:
+    - type:Melon
+    - amount:64
+    - name:&b32 Melon
+    - 'lore:&2Reward: 64 Money'
+    - amount:64
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 5
+    ExtraPermission: ''
+  Spider Eye:
+    RewardType: money
+    PriceType: item
+    Price:
+    - - type:Spider_Eye
+      - amount:64
+    Reward: 320
+    MenuItem:
+    - type:Melon
+    - amount:64
+    - name:&b32 Spider Eye
+    - 'lore:&2Reward: 320 Money'
+    - amount:64
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 6
+    ExtraPermission: ''
+  Carrot:
+    RewardType: money
+    PriceType: item
+    Price:
+    - - type:Carrot
+      - amount:64
+    Reward: 128
+    MenuItem:
+    - type:Carrot
+    - amount:64
+    - name:&b32 Carrot
+    - 'lore:&2Reward: 128 Money'
+    - amount:64
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 7
+    ExtraPermission: ''
+  Cocoa Beans:
+    RewardType: money
+    PriceType: item
+    Price:
+    - - type:Cocoa_Beans
+      - amount:64
+    Reward: 64
+    MenuItem:
+    - type:Cocoa_Beans
+    - amount:64
+    - name:&b32 Cocoa Beans
+    - 'lore:&2Reward: 64 Money'
+    - amount:64
+    Message: '&eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 8
+    ExtraPermission: ''
+  Back:
+    RewardType: shop
+    PriceType: free
+    Reward: menu
+    MenuItem:
+    - type:REDSTONE
+    - amount:1
+    - name:&cBack
+    - lore:&8Back to Menu
+    Message: '&6Leaving the ItemShop...'
+    InventoryLocation: 27
+    ExtraPermission: ''

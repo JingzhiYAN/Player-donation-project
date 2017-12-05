@@ -1,5 +1,5 @@
 ShopName: Spells
-DisplayName: '&4&lSpell'
+DisplayName: '&4&lSpells'
 signs:
   text: '[Spells]'
   NeedPermissionToCreateSign: true

@@ -4,89 +4,47 @@ signs:
   text: '[PointShop]'
   NeedPermissionToCreateSign: true
 shop:
-  100Points:
-    RewardType: points
-    PriceType: money
-    Price: 1000
-    Reward: 100
-    MenuItem:
-    - type:DIAMOND
-    - amount:1
-    - name:&6100 Points
-    - 'lore:&cPrice: 1000 Money'
-    - amount:1
-    Message: '&eYou bought 100 Points! Money left: &c%left%'
-    InventoryLocation: 1
-    ExtraPermission: ''
-  500Points:
-    RewardType: points
-    PriceType: money
-    Price: 5000
-    Reward: 500
-    MenuItem:
-    - type:DIAMOND
-    - amount:1
-    - name:&6500 Points
-    - 'lore:&cPrice: 5000 Money'
-    - amount:5
-    Message: '&eYou bought 500 Points! Money left: &c%left%'
-    InventoryLocation: 2
-    ExtraPermission: ''
-  1000Points:
-    RewardType: points
-    PriceType: money
-    Price: 10000
-    Reward: 1000
-    MenuItem:
-    - type:DIAMOND
-    - amount:1
-    - name:&61000 Points
-    - 'lore:&cPrice: 10000 Money'
-    - amount:10
-    Message: '&eYou bought 1000 Points! Money left: &c%left%'
-    InventoryLocation: 3
-    ExtraPermission: ''
   500Money:
     RewardType: money
     PriceType: points
-    Price: 100
+    Price: 50
     Reward: 500
     MenuItem:
     - type:EMERALD
     - amount:1
     - name:&6500 Money
-    - 'lore:&cPrice: 100 Points'
+    - 'lore:&cPrice: 50 Points'
     - amount:5
     Message: '&eYou bought 500 Money! Points left: &c%left%'
-    InventoryLocation: 19
+    InventoryLocation: 1
     ExtraPermission: ''
   1000Money:
     RewardType: money
     PriceType: points
-    Price: 200
+    Price: 100
     Reward: 1000
     MenuItem:
     - type:EMERALD
     - amount:1
     - name:&61000 Money
-    - 'lore:&cPrice: 200 Points'
+    - 'lore:&cPrice: 100 Points'
     - amount:10
     Message: '&eYou bought 1000 Money! Points left: &c%left%'
-    InventoryLocation: 20
+    InventoryLocation: 2
     ExtraPermission: ''
   5000Money:
     RewardType: money
     PriceType: points
-    Price: 1000
+    Price: 500
     Reward: 5000
     MenuItem:
     - type:EMERALD
     - amount:1
     - name:&65000 Money
-    - 'lore:&cPrice: 1000 Points'
+    - 'lore:&cPrice: 500 Points'
     - amount:50
     Message: '&eYou bought 5000 Money! Points left: &c%left%'
-    InventoryLocation: 21
+    InventoryLocation: 3
     ExtraPermission: ''
   Back:
     RewardType: shop
