@@ -32,8 +32,8 @@ shop:
     ExtraPermission: ''
   ShadowArmor:
     RewardType: item
-    PriceType: money
-    Price: 1500
+    PriceType: points
+    Price: 500
     Reward:
     - - type:LEATHER_CHESTPLATE
       - amount:1
@@ -49,28 +49,62 @@ shop:
     - color:110#10#140
     - enchantment:PROTECTION_ENVIRONMENTAL#10
     Message: '&eYou bought 1 %itemname%! Money left: &c%left%'
-    InventoryLocation: 5
+    InventoryLocation: 2
     ExtraPermission: ''
-  Obsidian:
+  Clay:
     RewardType: item
     PriceType: money
-    Price: 10000
+    Price: 128
     Reward:
-    - - type:OBSIDIAN
+    - - id:82
       - amount:64
     MenuItem:
-    - type:OBSIDIAN
-    - amount:1
-    - name:&964 Obsidian
-    - 'lore:&cPrice: 10000 Money'
+    - id:82
+    - amount:64
+    - name:&964 Clay
+    - 'lore:&cPrice: 128 Money'
     - amount:64
     Message: '&eYou bought %reward%! Money left: &c%left%'
-    InventoryLocation: 7
+    InventoryLocation: 3
+    ExtraPermission: ''
+  Copper Ore:
+    RewardType: item
+    PriceType: money
+    Price: 64
+    Reward:
+    - - id:477
+      - amount:64
+      - durability:35
+    MenuItem:
+    - id:477
+    - amount:64
+    - durability:35
+    - name:&964 copper ore
+    - 'lore:&cPrice: 64 Money'
+    - amount:64
+    Message: '&eYou bought %reward%! Money left: &c%left%'
+    InventoryLocation: 4
+    ExtraPermission: ''
+  Coal Ore:
+    RewardType: item
+    PriceType: money
+    Price: 32
+    Reward:
+    - - id:16
+      - amount:64
+    MenuItem:
+    - id:477
+    - amount:64
+    - name:&964 Coal Ore
+    - 'lore:&cPrice: 32 Money'
+    - amount:64
+    Message: '&eYou bought %reward%! Money left: &c%left%'
+    InventoryLocation: 5
     ExtraPermission: ''
   GodApple:
     RewardType: item
-    PriceType: money
-    Price: 10000
+    PriceType: points
+    Price: 50
     Reward:
     - - type:GOLDEN_APPLE
       - amount:1
@@ -82,26 +116,12 @@ shop:
     - 'lore:&cPrice: 10000 Money'
     - durability:1
     Message: '&eYou bought 1 %itemname%! Money left: &c%left%'
-    InventoryLocation: 9
+    InventoryLocation: 6
     ExtraPermission: ''
-  EnchantUnbreaking:
-    RewardType: enchantment
-    PriceType: exp
-    Price: 25
-    Reward: DURABILITY#3
-    MenuItem:
-    - name:&4[crown] &cEnchantment &4[crown]
-    - 'lore:&8Enchants the Item in your hand.#&cPrice: 25 Exp Level##&cOnly for VIPs!'
-    - type:ENCHANTED_BOOK
-    - amount:1
-    - enchantment:DURABILITY#3
-    Message: '&eThe Enchantment Unbreaking III was added to your item!'
-    InventoryLocation: 19
-    ExtraPermission: Permission.Vip
   BossSword:
     RewardType: item
     PriceType: points
-    Price: 2000
+    Price: 500
     Reward:
     - - type:DIAMOND_SWORD
       - amount:1
@@ -117,7 +137,119 @@ shop:
     - enchantment:DAMAGE_ALL#5
     - enchantment:FIRE_ASPECT#2
     Message: '&eYou bought 1 %itemname%! Money left: &c%left%'
-    InventoryLocation: 21
+    InventoryLocation: 7
+    ExtraPermission: ''
+  Iron Ore:
+    RewardType: item
+    PriceType: money
+    Price: 64
+    Reward:
+    - - id:15
+      - amount:64
+    MenuItem:
+    - id:15
+    - amount:64
+    - name:&964 Iron Ore
+    - 'lore:&cPrice: 64 Money'
+    - amount:64
+    Message: '&eYou bought %reward%! Money left: &c%left%'
+    InventoryLocation: 8
+    ExtraPermission: ''
+  Gold Ore:
+    RewardType: item
+    PriceType: money
+    Price: 128
+    Reward:
+    - - id:14
+      - amount:64
+    MenuItem:
+    - id:14
+    - amount:64
+    - name:&964 Gold Ore
+    - 'lore:&cPrice: 128 Money'
+    - amount:64
+    Message: '&eYou bought %reward%! Money left: &c%left%'
+    InventoryLocation: 9
+    ExtraPermission: ''
+  Emerald:
+    RewardType: item
+    PriceType: money
+    Price: 300
+    Reward:
+    - - id:129
+      - amount:1
+    MenuItem:
+    - id:129
+    - amount:1
+    - name:&9 1 Emerald
+    - 'lore:&cPrice: 300 Money'
+    - amount:1
+    Message: '&eYou bought %reward%! Money left: &c%left%'
+    InventoryLocation: 10
+    ExtraPermission: ''
+  Diamond Ore:
+    RewardType: item
+    PriceType: money
+    Price: 300
+    Reward:
+    - - id:56
+      - amount:1
+    MenuItem:
+    - id:56
+    - amount:1
+    - name:&9 1 Diamond
+    - 'lore:&cPrice: 300 Money'
+    - amount:1
+    Message: '&eYou bought %reward%! Money left: &c%left%'
+    InventoryLocation: 11
+    ExtraPermission: ''
+  Glowstone:
+    RewardType: item
+    PriceType: money
+    Price: 64
+    Reward:
+    - - id:89
+      - amount:64
+    MenuItem:
+    - id:89
+    - amount:64
+    - name:&964 Glowstone
+    - 'lore:&cPrice: 64 Money'
+    - amount:64
+    Message: '&eYou bought %reward%! Money left: &c%left%'
+    InventoryLocation: 12
+    ExtraPermission: ''
+  Lead Stone:
+    RewardType: item
+    PriceType: money
+    Price: 128
+    Reward:
+    - - id:409
+      - amount:64
+    MenuItem:
+    - id:409
+    - amount:64
+    - name:&964 Lead stone
+    - 'lore:&cPrice: 64 Money'
+    - amount:64
+    Message: '&eYou bought %reward%! Money left: &c%left%'
+    InventoryLocation: 13
+    ExtraPermission: ''
+  Tin Ore:
+    RewardType: item
+    PriceType: money
+    Price: 64
+    Reward:
+    - - id:254
+      - amount:64
+    MenuItem:
+    - id:254
+    - amount:64
+    - name:&964 Tin Ore
+    - 'lore:&cPrice: 64 Money'
+    - amount:64
+    Message: '&eYou bought %reward%! Money left: &c%left%'
+    InventoryLocation: 14
     ExtraPermission: ''
   Back:
     RewardType: shop

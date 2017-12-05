@@ -1,0 +1,39 @@
+ShopName: Ore shop M
+signs:
+  text: Ore Shop
+  NeedPermissionToCreateSign: true
+DisplayName: Ore shop M
+shop:
+  Clay:
+    MenuItem:
+    - name:&4Clay
+    - lore:&cPrice:2 for each
+    - id:82
+    - amount:64
+    InventoryLocation: 1
+    Message: '&6Thank you for purchase one clay'
+    PriceType: money
+    RewardType: item
+    Price: 64.0
+    Reward:
+    - - name:&8Clay
+      - lore:&cClay
+      - id:82
+      - amount:64
+  Copper ore:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&8Copper ore
+    - lore:&cExample Item
+    - type:477:35
+    - amount:64
+    InventoryLocation: 2
+    Message: '&thank you for purchase copper ore'
+    Price: 64
+    PriceType: exp
+    Reward:
+    - - name:&bCopper ore
+      - lore:&6Line1#&6Line2
+      - type:474:35
+      - amount:64
+    RewardType: item
